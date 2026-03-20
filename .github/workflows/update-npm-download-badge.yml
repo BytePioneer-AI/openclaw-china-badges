@@ -3,7 +3,7 @@ name: Update NPM Downloads Badge
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: write
