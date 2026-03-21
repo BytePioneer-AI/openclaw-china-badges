@@ -170,9 +170,13 @@ const SOURCES = [
 ];
 
 async function main() {
+  const results = [];
+
   for (const source of SOURCES) {
-    await updateSourceBadge(source);
+    results.push(await updateSourceBadge(source));
   }
+
+  await updateCombinedBadge(results);
 }
 
 async function updateSourceBadge(source) {
@@ -211,6 +215,45 @@ async function updateSourceBadge(source) {
   if (summary.unavailablePackages.length > 0) {
     console.warn(`[${source.id}] Packages without download data:`, summary.unavailablePackages);
   }
+
+  return {
+    id: source.id,
+    registry: source.registry,
+    fileBase: source.fileBase,
+    totalDownloads,
+    summary,
+  };
+}
+
+async function updateCombinedBadge(results) {
+  const totalDownloads = results.reduce((sum, result) => sum + result.totalDownloads, 0);
+  const badge = {
+    schemaVersion: 1,
+    label: "downloads",
+    message: formatNumber(totalDownloads),
+    color: "#2ea4ff",
+  };
+  const summary = {
+    sourceRepository: SOURCE_REPOSITORY,
+    scope: "openclaw-china",
+    label: "downloads",
+    description: "Combined total of npm public registry and npmmirror totals.",
+    totalDownloads,
+    sources: results.map((result) => ({
+      id: result.id,
+      registry: result.registry,
+      totalDownloads: result.totalDownloads,
+      badgeFileBase: result.fileBase,
+    })),
+  };
+
+  const badgeDir = path.join(repoRoot, BADGE_DIR);
+  await mkdir(badgeDir, { recursive: true });
+  await writeJson(path.join(badgeDir, "downloads-total.json"), badge);
+  await writeFile(path.join(badgeDir, "downloads-total.svg"), renderBadgeSvg(badge), "utf8");
+  await writeJson(path.join(badgeDir, "downloads-total-summary.json"), summary);
+
+  console.log(`[combined] Updated badge: ${formatNumber(totalDownloads)}.`);
 }
 
 async function fetchJson(url) {

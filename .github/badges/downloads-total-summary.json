@@ -1,0 +1,21 @@
+{
+  "sourceRepository": "https://github.com/BytePioneer-AI/openclaw-china",
+  "scope": "openclaw-china",
+  "label": "downloads",
+  "description": "Combined total of npm public registry and npmmirror totals.",
+  "totalDownloads": 206538,
+  "sources": [
+    {
+      "id": "npm",
+      "registry": "npm public registry",
+      "totalDownloads": 146227,
+      "badgeFileBase": "npm-downloads-18m"
+    },
+    {
+      "id": "npmmirror",
+      "registry": "npmmirror",
+      "totalDownloads": 60311,
+      "badgeFileBase": "npmmirror-downloads-total"
+    }
+  ]
+}
