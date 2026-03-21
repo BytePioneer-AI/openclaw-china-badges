@@ -15,20 +15,170 @@ const PACKAGES = [
 ];
 
 const BADGE_DIR = ".github/badges";
-const BADGE_FILE = "npm-downloads-18m.json";
-const BADGE_SVG_FILE = "npm-downloads-18m.svg";
-const SUMMARY_FILE = "npm-downloads-18m-summary.json";
 const REQUEST_TIMEOUT_MS = 15_000;
+const SOURCE_REPOSITORY = "https://github.com/BytePioneer-AI/openclaw-china";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, "..");
 
-async function main() {
-  const endDate = formatDateUTC(new Date());
-  const startDate = formatDateUTC(monthsAgoUtc(new Date(), 18));
+const SOURCES = [
+  {
+    id: "npm",
+    fileBase: "npm-downloads-18m",
+    badgeLabel: "npm 18m",
+    badgeColor: "#cb3837",
+    registry: "npm public registry",
+    buildContext() {
+      const endDate = formatDateUTC(new Date());
+      const startDate = formatDateUTC(monthsAgoUtc(new Date(), 18));
+      return { endDate, startDate, months: 18 };
+    },
+    async fetchPackageStats(name, context) {
+      const url = new URL(
+        `https://api.npmjs.org/downloads/point/${context.startDate}:${context.endDate}/${encodeURIComponent(name)}`,
+      );
 
+      try {
+        const body = await fetchJson(url);
+
+        return {
+          name,
+          downloads: typeof body.downloads === "number" ? body.downloads : 0,
+          status: "ok",
+          period: {
+            start: body.start ?? context.startDate,
+            end: body.end ?? context.endDate,
+          },
+        };
+      } catch (error) {
+        return {
+          name,
+          downloads: 0,
+          status: isHttpError(error) ? "unavailable" : "error",
+          error: formatError(error),
+        };
+      }
+    },
+    buildSummary({ context, packages, totalDownloads }) {
+      return {
+        sourceRepository: SOURCE_REPOSITORY,
+        scope: "openclaw-china",
+        registry: this.registry,
+        period: {
+          label: "npm public API longest window",
+          start: context.startDate,
+          end: context.endDate,
+          months: context.months,
+        },
+        totalDownloads,
+        packages,
+        unavailablePackages: packages
+          .filter((pkg) => pkg.status !== "ok")
+          .map(({ name, status, error }) => ({ name, status, error })),
+      };
+    },
+  },
+  {
+    id: "npmmirror",
+    fileBase: "npmmirror-downloads-total",
+    badgeLabel: "npmmirror total",
+    badgeColor: "#1f6feb",
+    registry: "npmmirror",
+    buildContext() {
+      return { endDate: formatDateUTC(new Date()) };
+    },
+    async fetchPackageStats(name, context) {
+      const metadataUrl = new URL(
+        `https://registry.npmmirror.com/${encodeURIComponent(name)}`,
+      );
+
+      try {
+        const metadata = await fetchJson(metadataUrl);
+        const createdAt = metadata?.time?.created;
+
+        if (typeof createdAt !== "string") {
+          return {
+            name,
+            downloads: 0,
+            status: "unavailable",
+            error: "Missing package creation time in npmmirror metadata",
+          };
+        }
+
+        const ranges = splitDateRangeByYear(createdAt.slice(0, 10), context.endDate);
+        let downloads = 0;
+        const yearlyRanges = [];
+
+        for (const range of ranges) {
+          const rangeUrl = new URL(
+            `https://registry.npmmirror.com/downloads/range/${range.start}:${range.end}/${encodeURIComponent(name)}`,
+          );
+          const body = await fetchJson(rangeUrl);
+          const rangeDownloads = Array.isArray(body.downloads)
+            ? body.downloads.reduce(
+                (sum, day) => sum + (typeof day.downloads === "number" ? day.downloads : 0),
+                0,
+              )
+            : 0;
+
+          downloads += rangeDownloads;
+          yearlyRanges.push({
+            start: range.start,
+            end: range.end,
+            downloads: rangeDownloads,
+          });
+        }
+
+        return {
+          name,
+          downloads,
+          status: "ok",
+          createdAt,
+          period: {
+            start: ranges[0]?.start ?? createdAt.slice(0, 10),
+            end: context.endDate,
+          },
+          yearlyRanges,
+        };
+      } catch (error) {
+        return {
+          name,
+          downloads: 0,
+          status: isHttpError(error) ? "unavailable" : "error",
+          error: formatError(error),
+        };
+      }
+    },
+    buildSummary({ context, packages, totalDownloads }) {
+      return {
+        sourceRepository: SOURCE_REPOSITORY,
+        scope: "openclaw-china",
+        registry: this.registry,
+        period: {
+          label: "npmmirror historical total aggregated by yearly range API",
+          end: context.endDate,
+          rangeMode: "package created date -> current date, split by calendar year",
+        },
+        totalDownloads,
+        packages,
+        unavailablePackages: packages
+          .filter((pkg) => pkg.status !== "ok")
+          .map(({ name, status, error }) => ({ name, status, error })),
+      };
+    },
+  },
+];
+
+async function main() {
+  for (const source of SOURCES) {
+    await updateSourceBadge(source);
+  }
+}
+
+async function updateSourceBadge(source) {
+  const context = source.buildContext();
   const packages = await Promise.all(
-    PACKAGES.map((name) => fetchDownloadsForPackage(name, startDate, endDate)),
+    PACKAGES.map((name) => source.fetchPackageStats(name, context)),
   );
 
   const totalDownloads = packages.reduce(
@@ -36,87 +186,71 @@ async function main() {
     0,
   );
 
-  const summary = {
-    sourceRepository: "https://github.com/BytePioneer-AI/openclaw-china",
-    scope: "openclaw-china",
-    period: {
-      label: "npm public API longest window",
-      start: startDate,
-      end: endDate,
-      months: 18,
-    },
-    totalDownloads,
-    packages,
-    unavailablePackages: packages
-      .filter((pkg) => pkg.status !== "ok")
-      .map(({ name, status, error }) => ({ name, status, error })),
-  };
-
+  const summary = source.buildSummary({ context, packages, totalDownloads });
   const badge = {
     schemaVersion: 1,
-    label: "downloads",
+    label: source.badgeLabel,
     message: formatNumber(totalDownloads),
-    color: "#2ea4ff",
+    color: source.badgeColor,
   };
 
-  const badgeSvg = renderBadgeSvg(badge);
   const badgeDir = path.join(repoRoot, BADGE_DIR);
-
   await mkdir(badgeDir, { recursive: true });
-  await writeJson(path.join(badgeDir, BADGE_FILE), badge);
-  await writeFile(path.join(badgeDir, BADGE_SVG_FILE), badgeSvg, "utf8");
-  await writeJson(path.join(badgeDir, SUMMARY_FILE), summary);
+  await writeJson(path.join(badgeDir, `${source.fileBase}.json`), badge);
+  await writeFile(
+    path.join(badgeDir, `${source.fileBase}.svg`),
+    renderBadgeSvg(badge),
+    "utf8",
+  );
+  await writeJson(path.join(badgeDir, `${source.fileBase}-summary.json`), summary);
 
   console.log(
-    `Updated npm downloads badge: ${formatNumber(totalDownloads)} across ${packages.length} packages (${startDate} -> ${endDate}).`,
+    `[${source.id}] Updated badge: ${formatNumber(totalDownloads)} across ${packages.length} packages.`,
   );
 
   if (summary.unavailablePackages.length > 0) {
-    console.warn("Packages without download data:", summary.unavailablePackages);
+    console.warn(`[${source.id}] Packages without download data:`, summary.unavailablePackages);
   }
 }
 
-async function fetchDownloadsForPackage(name, startDate, endDate) {
-  const url = new URL(
-    `https://api.npmjs.org/downloads/point/${startDate}:${endDate}/${encodeURIComponent(name)}`,
-  );
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+    headers: {
+      "user-agent": "openclaw-china-badges/1.0",
+      accept: "application/json",
+    },
+  });
 
-  try {
-    const response = await fetch(url, {
-      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
-      headers: {
-        "user-agent": "openclaw-china-badges/1.0",
-      },
-    });
+  const body = await response.json();
 
-    const body = await response.json();
-
-    if (!response.ok) {
-      return {
-        name,
-        downloads: 0,
-        status: "unavailable",
-        error: typeof body?.error === "string" ? body.error : `HTTP ${response.status}`,
-      };
-    }
-
-    return {
-      name,
-      downloads: typeof body.downloads === "number" ? body.downloads : 0,
-      status: "ok",
-      range: {
-        start: body.start ?? startDate,
-        end: body.end ?? endDate,
-      },
-    };
-  } catch (error) {
-    return {
-      name,
-      downloads: 0,
-      status: "error",
-      error: error instanceof Error ? error.message : String(error),
-    };
+  if (!response.ok) {
+    throw new HttpError(
+      response.status,
+      typeof body?.error === "string" ? body.error : `HTTP ${response.status}`,
+    );
   }
+
+  return body;
+}
+
+function splitDateRangeByYear(startDate, endDate) {
+  const start = new Date(`${startDate}T00:00:00Z`);
+  const end = new Date(`${endDate}T00:00:00Z`);
+  const ranges = [];
+  let year = start.getUTCFullYear();
+
+  while (year <= end.getUTCFullYear()) {
+    const rangeStart =
+      year === start.getUTCFullYear() ? startDate : `${year}-01-01`;
+    const rangeEnd =
+      year === end.getUTCFullYear() ? endDate : `${year}-12-31`;
+
+    ranges.push({ start: rangeStart, end: rangeEnd });
+    year += 1;
+  }
+
+  return ranges;
 }
 
 function monthsAgoUtc(date, months) {
@@ -205,11 +339,31 @@ function escapeXml(value) {
     .replaceAll("'", "&apos;");
 }
 
+function isHttpError(error) {
+  return error instanceof HttpError;
+}
+
+function formatError(error) {
+  if (error instanceof Error) {
+    return error.message;
+  }
+
+  return String(error);
+}
+
 async function writeJson(filePath, value) {
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
+class HttpError extends Error {
+  constructor(status, message) {
+    super(message);
+    this.name = "HttpError";
+    this.status = status;
+  }
+}
+
 main().catch((error) => {
-  console.error("Failed to update npm downloads badge.", error);
+  console.error("Failed to update download badges.", error);
   process.exitCode = 1;
 });

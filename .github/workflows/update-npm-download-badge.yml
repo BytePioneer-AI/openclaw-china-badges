@@ -26,13 +26,13 @@ jobs:
 
       - name: Commit badge updates
         run: |
-          if git diff --quiet -- .github/badges/npm-downloads-18m.json .github/badges/npm-downloads-18m.svg .github/badges/npm-downloads-18m-summary.json; then
+          if git diff --quiet -- .github/badges; then
             echo "Badge data is already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/badges/npm-downloads-18m.json .github/badges/npm-downloads-18m.svg .github/badges/npm-downloads-18m-summary.json
+          git add .github/badges
           git commit -m "chore: update npm downloads badge"
           git push

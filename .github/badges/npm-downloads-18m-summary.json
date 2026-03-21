@@ -1,6 +1,7 @@
 {
   "sourceRepository": "https://github.com/BytePioneer-AI/openclaw-china",
   "scope": "openclaw-china",
+  "registry": "npm public registry",
   "period": {
     "label": "npm public API longest window",
     "start": "2024-09-21",
@@ -13,7 +14,7 @@
       "name": "@openclaw-china/channels",
       "downloads": 17898,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -22,7 +23,7 @@
       "name": "@openclaw-china/dingtalk",
       "downloads": 20196,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -31,7 +32,7 @@
       "name": "@openclaw-china/feishu-china",
       "downloads": 11726,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -40,7 +41,7 @@
       "name": "@openclaw-china/qqbot",
       "downloads": 12715,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -49,7 +50,7 @@
       "name": "@openclaw-china/shared",
       "downloads": 38584,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -58,7 +59,7 @@
       "name": "@openclaw-china/wechat-mp",
       "downloads": 388,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -67,7 +68,7 @@
       "name": "@openclaw-china/wecom",
       "downloads": 25760,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -76,7 +77,7 @@
       "name": "@openclaw-china/wecom-app",
       "downloads": 18546,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
@@ -85,7 +86,7 @@
       "name": "@openclaw-china/wecom-kf",
       "downloads": 414,
       "status": "ok",
-      "range": {
+      "period": {
         "start": "2024-09-21",
         "end": "2026-03-21"
       }
