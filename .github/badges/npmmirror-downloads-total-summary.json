@@ -7,7 +7,7 @@
     "end": "2026-05-07",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 85147,
+  "totalDownloads": 85150,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -28,7 +28,7 @@
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 12162,
+      "downloads": 12163,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,7 +39,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-07",
-          "downloads": 12162
+          "downloads": 12163
         }
       ]
     },
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 23165,
+      "downloads": 23166,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,13 +90,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-07",
-          "downloads": 23165
+          "downloads": 23166
         }
       ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 1720,
+      "downloads": 1721,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
@@ -107,7 +107,7 @@
         {
           "start": "2026-03-20",
           "end": "2026-05-07",
-          "downloads": 1720
+          "downloads": 1721
         }
       ]
     },
