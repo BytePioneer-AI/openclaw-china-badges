@@ -7,7 +7,7 @@
     "end": "2026-05-08",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 85427,
+  "totalDownloads": 85435,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 23236,
+      "downloads": 23240,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,13 +90,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-08",
-          "downloads": 23236
+          "downloads": 23240
         }
       ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 1744,
+      "downloads": 1745,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
@@ -107,13 +107,13 @@
         {
           "start": "2026-03-20",
           "end": "2026-05-08",
-          "downloads": 1744
+          "downloads": 1745
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 13259,
+      "downloads": 13261,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,13 +124,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-08",
-          "downloads": 13259
+          "downloads": 13261
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 10463,
+      "downloads": 10464,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
@@ -141,7 +141,7 @@
         {
           "start": "2026-02-04",
           "end": "2026-05-08",
-          "downloads": 10463
+          "downloads": 10464
         }
       ]
     },
