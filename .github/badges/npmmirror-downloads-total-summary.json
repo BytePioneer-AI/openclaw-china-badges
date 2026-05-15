@@ -7,7 +7,7 @@
     "end": "2026-05-15",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 86633,
+  "totalDownloads": 86634,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 23566,
+      "downloads": 23567,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-15",
-          "downloads": 23566
+          "downloads": 23567
         }
       ]
     },
