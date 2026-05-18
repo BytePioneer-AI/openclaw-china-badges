@@ -4,37 +4,37 @@
   "registry": "npm public registry",
   "period": {
     "label": "npm public API longest window",
-    "start": "2024-11-17",
-    "end": "2026-05-17",
+    "start": "2024-11-18",
+    "end": "2026-05-18",
     "months": 18
   },
-  "totalDownloads": 222730,
+  "totalDownloads": 222814,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 23447,
+      "downloads": 23462,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 27735,
+      "downloads": 27748,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 17619,
+      "downloads": 17632,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
@@ -42,8 +42,8 @@
       "downloads": 18970,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
@@ -51,8 +51,8 @@
       "downloads": 58458,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
@@ -60,17 +60,17 @@
       "downloads": 4113,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 40485,
+      "downloads": 40528,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
@@ -78,8 +78,8 @@
       "downloads": 27023,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     },
     {
@@ -87,8 +87,8 @@
       "downloads": 4880,
       "status": "ok",
       "period": {
-        "start": "2024-11-17",
-        "end": "2026-05-17"
+        "start": "2024-11-18",
+        "end": "2026-05-18"
       }
     }
   ],
