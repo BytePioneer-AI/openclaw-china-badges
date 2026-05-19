@@ -7,11 +7,11 @@
     "end": "2026-05-19",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 87069,
+  "totalDownloads": 87125,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7660,
+      "downloads": 7665,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
@@ -22,13 +22,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-19",
-          "downloads": 7660
+          "downloads": 7665
         }
       ]
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 12395,
+      "downloads": 12400,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,13 +39,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-19",
-          "downloads": 12395
+          "downloads": 12400
         }
       ]
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 6828,
+      "downloads": 6832,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
@@ -56,13 +56,13 @@
         {
           "start": "2026-02-08",
           "end": "2026-05-19",
-          "downloads": 6828
+          "downloads": 6832
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 8639,
+      "downloads": 8645,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,13 +73,13 @@
         {
           "start": "2026-02-06",
           "end": "2026-05-19",
-          "downloads": 8639
+          "downloads": 8645
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 23687,
+      "downloads": 23700,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,13 +90,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-19",
-          "downloads": 23687
+          "downloads": 23700
         }
       ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 1857,
+      "downloads": 1861,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
@@ -107,13 +107,13 @@
         {
           "start": "2026-03-20",
           "end": "2026-05-19",
-          "downloads": 1857
+          "downloads": 1861
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 13462,
+      "downloads": 13469,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,13 +124,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-05-19",
-          "downloads": 13462
+          "downloads": 13469
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 10637,
+      "downloads": 10644,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
@@ -141,13 +141,13 @@
         {
           "start": "2026-02-04",
           "end": "2026-05-19",
-          "downloads": 10637
+          "downloads": 10644
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 1904,
+      "downloads": 1909,
       "status": "ok",
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
@@ -158,7 +158,7 @@
         {
           "start": "2026-03-17",
           "end": "2026-05-19",
-          "downloads": 1904
+          "downloads": 1909
         }
       ]
     }
