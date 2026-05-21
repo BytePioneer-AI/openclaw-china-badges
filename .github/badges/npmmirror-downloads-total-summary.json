@@ -7,7 +7,7 @@
     "end": "2026-05-21",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 87486,
+  "totalDownloads": 87487,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -45,7 +45,7 @@
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 6859,
+      "downloads": 6860,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
@@ -56,7 +56,7 @@
         {
           "start": "2026-02-08",
           "end": "2026-05-21",
-          "downloads": 6859
+          "downloads": 6860
         }
       ]
     },
