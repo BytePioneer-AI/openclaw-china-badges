@@ -7,161 +7,108 @@
     "end": "2026-05-22",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 87599,
+  "totalDownloads": 0,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7694,
-      "status": "ok",
-      "createdAt": "2026-01-30T05:37:34.674Z",
-      "period": {
-        "start": "2026-01-30",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-01-30",
-          "end": "2026-05-22",
-          "downloads": 7694
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 12458,
-      "status": "ok",
-      "createdAt": "2026-01-30T05:31:27.109Z",
-      "period": {
-        "start": "2026-01-30",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-01-30",
-          "end": "2026-05-22",
-          "downloads": 12458
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 6870,
-      "status": "ok",
-      "createdAt": "2026-02-08T11:04:21.987Z",
-      "period": {
-        "start": "2026-02-08",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-02-08",
-          "end": "2026-05-22",
-          "downloads": 6870
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 8698,
-      "status": "ok",
-      "createdAt": "2026-02-06T06:31:54.761Z",
-      "period": {
-        "start": "2026-02-06",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-02-06",
-          "end": "2026-05-22",
-          "downloads": 8698
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 23832,
-      "status": "ok",
-      "createdAt": "2026-01-30T05:30:19.337Z",
-      "period": {
-        "start": "2026-01-30",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-01-30",
-          "end": "2026-05-22",
-          "downloads": 23832
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 1895,
-      "status": "ok",
-      "createdAt": "2026-03-20T16:40:15.695Z",
-      "period": {
-        "start": "2026-03-20",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-03-20",
-          "end": "2026-05-22",
-          "downloads": 1895
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 13522,
-      "status": "ok",
-      "createdAt": "2026-01-30T11:50:49.176Z",
-      "period": {
-        "start": "2026-01-30",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-01-30",
-          "end": "2026-05-22",
-          "downloads": 13522
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 10690,
-      "status": "ok",
-      "createdAt": "2026-02-04T16:05:59.811Z",
-      "period": {
-        "start": "2026-02-04",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-02-04",
-          "end": "2026-05-22",
-          "downloads": 10690
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 1940,
-      "status": "ok",
-      "createdAt": "2026-03-17T16:14:42.837Z",
-      "period": {
-        "start": "2026-03-17",
-        "end": "2026-05-22"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-03-17",
-          "end": "2026-05-22",
-          "downloads": 1940
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     }
   ],
-  "unavailablePackages": []
+  "unavailablePackages": [
+    {
+      "name": "@openclaw-china/channels",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/dingtalk",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/feishu-china",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/qqbot",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/shared",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/wechat-mp",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/wecom",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/wecom-app",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/wecom-kf",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
