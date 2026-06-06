@@ -4,164 +4,153 @@
   "registry": "npmmirror",
   "period": {
     "label": "npmmirror historical total aggregated by yearly range API",
-    "end": "2026-06-05",
+    "end": "2026-06-06",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 89371,
+  "totalDownloads": 54041,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7779,
+      "downloads": 7780,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-05",
-          "downloads": 7779
+          "end": "2026-06-06",
+          "downloads": 7780
         }
       ]
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 12657,
+      "downloads": 12662,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-05",
-          "downloads": 12657
+          "end": "2026-06-06",
+          "downloads": 12662
         }
       ]
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 6992,
+      "downloads": 6994,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
         "start": "2026-02-08",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-08",
-          "end": "2026-06-05",
-          "downloads": 6992
+          "end": "2026-06-06",
+          "downloads": 6994
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 8860,
+      "downloads": 8864,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
         "start": "2026-02-06",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-06",
-          "end": "2026-06-05",
-          "downloads": 8860
+          "end": "2026-06-06",
+          "downloads": 8864
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 24427,
-      "status": "ok",
-      "createdAt": "2026-01-30T05:30:19.337Z",
-      "period": {
-        "start": "2026-01-30",
-        "end": "2026-06-05"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-01-30",
-          "end": "2026-06-05",
-          "downloads": 24427
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 1997,
+      "downloads": 1998,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
         "start": "2026-03-20",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-20",
-          "end": "2026-06-05",
-          "downloads": 1997
+          "end": "2026-06-06",
+          "downloads": 1998
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 13707,
+      "downloads": 13710,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-05",
-          "downloads": 13707
+          "end": "2026-06-06",
+          "downloads": 13710
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 10920,
-      "status": "ok",
-      "createdAt": "2026-02-04T16:05:59.811Z",
-      "period": {
-        "start": "2026-02-04",
-        "end": "2026-06-05"
-      },
-      "yearlyRanges": [
-        {
-          "start": "2026-02-04",
-          "end": "2026-06-05",
-          "downloads": 10920
-        }
-      ]
+      "downloads": 0,
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 2032,
+      "downloads": 2033,
       "status": "ok",
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
         "start": "2026-03-17",
-        "end": "2026-06-05"
+        "end": "2026-06-06"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-17",
-          "end": "2026-06-05",
-          "downloads": 2032
+          "end": "2026-06-06",
+          "downloads": 2033
         }
       ]
     }
   ],
-  "unavailablePackages": []
+  "unavailablePackages": [
+    {
+      "name": "@openclaw-china/shared",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "name": "@openclaw-china/wecom-app",
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
+    }
+  ]
 }
