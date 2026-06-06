@@ -7,11 +7,11 @@
     "end": "2026-06-06",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 54041,
+  "totalDownloads": 89432,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7780,
+      "downloads": 7781,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
@@ -22,13 +22,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-06",
-          "downloads": 7780
+          "downloads": 7781
         }
       ]
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 12662,
+      "downloads": 12666,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,13 +39,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-06",
-          "downloads": 12662
+          "downloads": 12666
         }
       ]
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 6994,
+      "downloads": 6996,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
@@ -56,13 +56,13 @@
         {
           "start": "2026-02-08",
           "end": "2026-06-06",
-          "downloads": 6994
+          "downloads": 6996
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 8864,
+      "downloads": 8867,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,19 +73,30 @@
         {
           "start": "2026-02-06",
           "end": "2026-06-06",
-          "downloads": 8864
+          "downloads": 8867
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 0,
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "downloads": 24446,
+      "status": "ok",
+      "createdAt": "2026-01-30T05:30:19.337Z",
+      "period": {
+        "start": "2026-01-30",
+        "end": "2026-06-06"
+      },
+      "yearlyRanges": [
+        {
+          "start": "2026-01-30",
+          "end": "2026-06-06",
+          "downloads": 24446
+        }
+      ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 1998,
+      "downloads": 1999,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
@@ -96,13 +107,13 @@
         {
           "start": "2026-03-20",
           "end": "2026-06-06",
-          "downloads": 1998
+          "downloads": 1999
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 13710,
+      "downloads": 13715,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -113,19 +124,30 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-06",
-          "downloads": 13710
+          "downloads": 13715
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 0,
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "downloads": 10928,
+      "status": "ok",
+      "createdAt": "2026-02-04T16:05:59.811Z",
+      "period": {
+        "start": "2026-02-04",
+        "end": "2026-06-06"
+      },
+      "yearlyRanges": [
+        {
+          "start": "2026-02-04",
+          "end": "2026-06-06",
+          "downloads": 10928
+        }
+      ]
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 2033,
+      "downloads": 2034,
       "status": "ok",
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
@@ -136,21 +158,10 @@
         {
           "start": "2026-03-17",
           "end": "2026-06-06",
-          "downloads": 2033
+          "downloads": 2034
         }
       ]
     }
   ],
-  "unavailablePackages": [
-    {
-      "name": "@openclaw-china/shared",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "name": "@openclaw-china/wecom-app",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
-    }
-  ]
+  "unavailablePackages": []
 }
