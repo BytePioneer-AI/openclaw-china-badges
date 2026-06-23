@@ -7,7 +7,7 @@
     "end": "2026-06-23",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 44231,
+  "totalDownloads": 91049,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -28,9 +28,20 @@
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 0,
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "downloads": 12881,
+      "status": "ok",
+      "createdAt": "2026-01-30T05:31:27.109Z",
+      "period": {
+        "start": "2026-01-30",
+        "end": "2026-06-23"
+      },
+      "yearlyRanges": [
+        {
+          "start": "2026-01-30",
+          "end": "2026-06-23",
+          "downloads": 12881
+        }
+      ]
     },
     {
       "name": "@openclaw-china/feishu-china",
@@ -51,15 +62,37 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 0,
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "downloads": 9068,
+      "status": "ok",
+      "createdAt": "2026-02-06T06:31:54.761Z",
+      "period": {
+        "start": "2026-02-06",
+        "end": "2026-06-23"
+      },
+      "yearlyRanges": [
+        {
+          "start": "2026-02-06",
+          "end": "2026-06-23",
+          "downloads": 9068
+        }
+      ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 0,
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "downloads": 24869,
+      "status": "ok",
+      "createdAt": "2026-01-30T05:30:19.337Z",
+      "period": {
+        "start": "2026-01-30",
+        "end": "2026-06-23"
+      },
+      "yearlyRanges": [
+        {
+          "start": "2026-01-30",
+          "end": "2026-06-23",
+          "downloads": 24869
+        }
+      ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
@@ -130,21 +163,5 @@
       ]
     }
   ],
-  "unavailablePackages": [
-    {
-      "name": "@openclaw-china/dingtalk",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "name": "@openclaw-china/qqbot",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
-    },
-    {
-      "name": "@openclaw-china/shared",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
-    }
-  ]
+  "unavailablePackages": []
 }
