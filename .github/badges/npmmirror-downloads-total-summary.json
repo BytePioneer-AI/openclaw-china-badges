@@ -7,11 +7,11 @@
     "end": "2026-06-27",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 91256,
+  "totalDownloads": 91264,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7857,
+      "downloads": 7858,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
@@ -22,13 +22,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-27",
-          "downloads": 7857
+          "downloads": 7858
         }
       ]
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 12907,
+      "downloads": 12908,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,7 +39,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-27",
-          "downloads": 12907
+          "downloads": 12908
         }
       ]
     },
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 24931,
+      "downloads": 24935,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-27",
-          "downloads": 24931
+          "downloads": 24935
         }
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 13954,
+      "downloads": 13955,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,13 +124,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-06-27",
-          "downloads": 13954
+          "downloads": 13955
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 11102,
+      "downloads": 11103,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
@@ -141,7 +141,7 @@
         {
           "start": "2026-02-04",
           "end": "2026-06-27",
-          "downloads": 11102
+          "downloads": 11103
         }
       ]
     },
