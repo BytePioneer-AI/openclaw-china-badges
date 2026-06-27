@@ -7,7 +7,7 @@
     "end": "2026-06-27",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 91264,
+  "totalDownloads": 91265,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -62,7 +62,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9101,
+      "downloads": 9102,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,7 +73,7 @@
         {
           "start": "2026-02-06",
           "end": "2026-06-27",
-          "downloads": 9101
+          "downloads": 9102
         }
       ]
     },
