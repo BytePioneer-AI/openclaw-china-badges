@@ -4,10 +4,10 @@
   "registry": "npmmirror",
   "period": {
     "label": "npmmirror historical total aggregated by yearly range API",
-    "end": "2026-06-27",
+    "end": "2026-06-28",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 91265,
+  "totalDownloads": 91271,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -16,12 +16,12 @@
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-27",
+          "end": "2026-06-28",
           "downloads": 7858
         }
       ]
@@ -33,12 +33,12 @@
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-27",
+          "end": "2026-06-28",
           "downloads": 12908
         }
       ]
@@ -50,64 +50,64 @@
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
         "start": "2026-02-08",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-08",
-          "end": "2026-06-27",
+          "end": "2026-06-28",
           "downloads": 7144
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9102,
+      "downloads": 9105,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
         "start": "2026-02-06",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-06",
-          "end": "2026-06-27",
-          "downloads": 9102
+          "end": "2026-06-28",
+          "downloads": 9105
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 24935,
+      "downloads": 24937,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-27",
-          "downloads": 24935
+          "end": "2026-06-28",
+          "downloads": 24937
         }
       ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 2124,
+      "downloads": 2125,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
         "start": "2026-03-20",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-20",
-          "end": "2026-06-27",
-          "downloads": 2124
+          "end": "2026-06-28",
+          "downloads": 2125
         }
       ]
     },
@@ -118,12 +118,12 @@
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-06-27",
+          "end": "2026-06-28",
           "downloads": 13955
         }
       ]
@@ -135,12 +135,12 @@
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
         "start": "2026-02-04",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-04",
-          "end": "2026-06-27",
+          "end": "2026-06-28",
           "downloads": 11103
         }
       ]
@@ -152,12 +152,12 @@
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
         "start": "2026-03-17",
-        "end": "2026-06-27"
+        "end": "2026-06-28"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-17",
-          "end": "2026-06-27",
+          "end": "2026-06-28",
           "downloads": 2136
         }
       ]
