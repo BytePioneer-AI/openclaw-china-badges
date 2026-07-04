@@ -7,7 +7,7 @@
     "end": "2026-07-04",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 91803,
+  "totalDownloads": 91805,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -62,7 +62,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9162,
+      "downloads": 9163,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,13 +73,13 @@
         {
           "start": "2026-02-06",
           "end": "2026-07-04",
-          "downloads": 9162
+          "downloads": 9163
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 25135,
+      "downloads": 25136,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-04",
-          "downloads": 25135
+          "downloads": 25136
         }
       ]
     },
