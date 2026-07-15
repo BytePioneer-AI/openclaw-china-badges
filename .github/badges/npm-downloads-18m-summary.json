@@ -8,11 +8,11 @@
     "end": "2026-07-15",
     "months": 18
   },
-  "totalDownloads": 240381,
+  "totalDownloads": 240555,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 24891,
+      "downloads": 24905,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -21,7 +21,7 @@
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 29877,
+      "downloads": 29897,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -30,7 +30,7 @@
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 19098,
+      "downloads": 19111,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -39,7 +39,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 20774,
+      "downloads": 20792,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -48,7 +48,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 62912,
+      "downloads": 62948,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -57,7 +57,7 @@
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 5146,
+      "downloads": 5163,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -66,7 +66,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 42905,
+      "downloads": 42931,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -75,7 +75,7 @@
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 28704,
+      "downloads": 28719,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
@@ -84,7 +84,7 @@
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 6074,
+      "downloads": 6089,
       "status": "ok",
       "period": {
         "start": "2025-01-15",
