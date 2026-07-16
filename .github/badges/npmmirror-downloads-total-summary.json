@@ -4,161 +4,161 @@
   "registry": "npmmirror",
   "period": {
     "label": "npmmirror historical total aggregated by yearly range API",
-    "end": "2026-07-15",
+    "end": "2026-07-16",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 92663,
+  "totalDownloads": 92684,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7900,
+      "downloads": 7901,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-07-15",
-          "downloads": 7900
+          "end": "2026-07-16",
+          "downloads": 7901
         }
       ]
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 13078,
+      "downloads": 13080,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-07-15",
-          "downloads": 13078
+          "end": "2026-07-16",
+          "downloads": 13080
         }
       ]
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 7232,
+      "downloads": 7233,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
         "start": "2026-02-08",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-08",
-          "end": "2026-07-15",
-          "downloads": 7232
+          "end": "2026-07-16",
+          "downloads": 7233
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9224,
+      "downloads": 9226,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
         "start": "2026-02-06",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-06",
-          "end": "2026-07-15",
-          "downloads": 9224
+          "end": "2026-07-16",
+          "downloads": 9226
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 25575,
+      "downloads": 25582,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-07-15",
-          "downloads": 25575
+          "end": "2026-07-16",
+          "downloads": 25582
         }
       ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 2176,
+      "downloads": 2177,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
         "start": "2026-03-20",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-20",
-          "end": "2026-07-15",
-          "downloads": 2176
+          "end": "2026-07-16",
+          "downloads": 2177
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14107,
+      "downloads": 14112,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-07-15",
-          "downloads": 14107
+          "end": "2026-07-16",
+          "downloads": 14112
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 11193,
+      "downloads": 11194,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
         "start": "2026-02-04",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-04",
-          "end": "2026-07-15",
-          "downloads": 11193
+          "end": "2026-07-16",
+          "downloads": 11194
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 2178,
+      "downloads": 2179,
       "status": "ok",
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
         "start": "2026-03-17",
-        "end": "2026-07-15"
+        "end": "2026-07-16"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-17",
-          "end": "2026-07-15",
-          "downloads": 2178
+          "end": "2026-07-16",
+          "downloads": 2179
         }
       ]
     }
