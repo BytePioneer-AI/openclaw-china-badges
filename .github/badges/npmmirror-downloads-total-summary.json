@@ -7,11 +7,11 @@
     "end": "2026-07-19",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 92896,
+  "totalDownloads": 92909,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7908,
+      "downloads": 7909,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
@@ -22,7 +22,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-19",
-          "downloads": 7908
+          "downloads": 7909
         }
       ]
     },
@@ -45,7 +45,7 @@
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 7240,
+      "downloads": 7241,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
@@ -56,13 +56,13 @@
         {
           "start": "2026-02-08",
           "end": "2026-07-19",
-          "downloads": 7240
+          "downloads": 7241
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9236,
+      "downloads": 9246,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,13 +73,13 @@
         {
           "start": "2026-02-06",
           "end": "2026-07-19",
-          "downloads": 9236
+          "downloads": 9246
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 25679,
+      "downloads": 25680,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-19",
-          "downloads": 25679
+          "downloads": 25680
         }
       ]
     },
