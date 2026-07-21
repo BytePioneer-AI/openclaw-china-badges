@@ -7,7 +7,7 @@
     "end": "2026-07-21",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 92963,
+  "totalDownloads": 92972,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -28,7 +28,7 @@
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 13125,
+      "downloads": 13127,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,7 +39,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-21",
-          "downloads": 13125
+          "downloads": 13127
         }
       ]
     },
@@ -62,7 +62,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9250,
+      "downloads": 9251,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,13 +73,13 @@
         {
           "start": "2026-02-06",
           "end": "2026-07-21",
-          "downloads": 9250
+          "downloads": 9251
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 25707,
+      "downloads": 25711,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-21",
-          "downloads": 25707
+          "downloads": 25711
         }
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14143,
+      "downloads": 14144,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,13 +124,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-21",
-          "downloads": 14143
+          "downloads": 14144
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 11210,
+      "downloads": 11211,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
@@ -141,7 +141,7 @@
         {
           "start": "2026-02-04",
           "end": "2026-07-21",
-          "downloads": 11210
+          "downloads": 11211
         }
       ]
     },
