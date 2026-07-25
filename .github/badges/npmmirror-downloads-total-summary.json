@@ -7,7 +7,7 @@
     "end": "2026-07-25",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 93187,
+  "totalDownloads": 93190,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 25797,
+      "downloads": 25799,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-25",
-          "downloads": 25797
+          "downloads": 25799
         }
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14162,
+      "downloads": 14163,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,7 +124,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-07-25",
-          "downloads": 14162
+          "downloads": 14163
         }
       ]
     },
