@@ -7,7 +7,7 @@
     "end": "2026-08-01",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 93450,
+  "totalDownloads": 93452,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -45,7 +45,7 @@
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 7274,
+      "downloads": 7275,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
@@ -56,7 +56,7 @@
         {
           "start": "2026-02-08",
           "end": "2026-08-01",
-          "downloads": 7274
+          "downloads": 7275
         }
       ]
     },
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 25939,
+      "downloads": 25940,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-01",
-          "downloads": 25939
+          "downloads": 25940
         }
       ]
     },
