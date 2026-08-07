@@ -7,11 +7,11 @@
     "end": "2026-08-07",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 93712,
+  "totalDownloads": 93717,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 7938,
+      "downloads": 7939,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
@@ -22,13 +22,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-07",
-          "downloads": 7938
+          "downloads": 7939
         }
       ]
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 13211,
+      "downloads": 13212,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,7 +39,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-07",
-          "downloads": 13211
+          "downloads": 13212
         }
       ]
     },
@@ -62,7 +62,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9325,
+      "downloads": 9326,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,7 +73,7 @@
         {
           "start": "2026-02-06",
           "end": "2026-08-07",
-          "downloads": 9325
+          "downloads": 9326
         }
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14226,
+      "downloads": 14227,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,13 +124,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-07",
-          "downloads": 14226
+          "downloads": 14227
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 11257,
+      "downloads": 11258,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
@@ -141,7 +141,7 @@
         {
           "start": "2026-02-04",
           "end": "2026-08-07",
-          "downloads": 11257
+          "downloads": 11258
         }
       ]
     },
