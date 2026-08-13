@@ -7,7 +7,7 @@
     "end": "2026-08-13",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 94159,
+  "totalDownloads": 94175,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -28,7 +28,7 @@
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 13262,
+      "downloads": 13263,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,7 +39,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-13",
-          "downloads": 13262
+          "downloads": 13263
         }
       ]
     },
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 26233,
+      "downloads": 26242,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-13",
-          "downloads": 26233
+          "downloads": 26242
         }
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14278,
+      "downloads": 14279,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,13 +124,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-08-13",
-          "downloads": 14278
+          "downloads": 14279
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 11293,
+      "downloads": 11296,
       "status": "ok",
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
@@ -141,13 +141,13 @@
         {
           "start": "2026-02-04",
           "end": "2026-08-13",
-          "downloads": 11293
+          "downloads": 11296
         }
       ]
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 2218,
+      "downloads": 2220,
       "status": "ok",
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
@@ -158,7 +158,7 @@
         {
           "start": "2026-03-17",
           "end": "2026-08-13",
-          "downloads": 2218
+          "downloads": 2220
         }
       ]
     }
