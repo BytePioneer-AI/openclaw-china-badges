@@ -4,8 +4,8 @@
   "registry": "npm public registry",
   "period": {
     "label": "npm public API longest window",
-    "start": "2025-02-18",
-    "end": "2026-08-18",
+    "start": "2025-02-19",
+    "end": "2026-08-19",
     "months": 18
   },
   "totalDownloads": 247069,
@@ -15,8 +15,8 @@
       "downloads": 25561,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -24,8 +24,8 @@
       "downloads": 30820,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -33,8 +33,8 @@
       "downloads": 19577,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -42,8 +42,8 @@
       "downloads": 21342,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -51,8 +51,8 @@
       "downloads": 64783,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -60,8 +60,8 @@
       "downloads": 5409,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -69,8 +69,8 @@
       "downloads": 43902,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -78,8 +78,8 @@
       "downloads": 29341,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     },
     {
@@ -87,8 +87,8 @@
       "downloads": 6334,
       "status": "ok",
       "period": {
-        "start": "2025-02-18",
-        "end": "2026-08-18"
+        "start": "2025-02-19",
+        "end": "2026-08-19"
       }
     }
   ],
