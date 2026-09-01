@@ -8,11 +8,11 @@
     "end": "2026-09-01",
     "months": 18
   },
-  "totalDownloads": 248656,
+  "totalDownloads": 248762,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 25717,
+      "downloads": 25721,
       "status": "ok",
       "period": {
         "start": "2025-03-01",
@@ -30,7 +30,7 @@
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 19700,
+      "downloads": 19706,
       "status": "ok",
       "period": {
         "start": "2025-03-01",
@@ -39,7 +39,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 21553,
+      "downloads": 21566,
       "status": "ok",
       "period": {
         "start": "2025-03-01",
@@ -48,7 +48,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 65198,
+      "downloads": 65259,
       "status": "ok",
       "period": {
         "start": "2025-03-01",
@@ -66,7 +66,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 44130,
+      "downloads": 44145,
       "status": "ok",
       "period": {
         "start": "2025-03-01",
@@ -84,7 +84,7 @@
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 6403,
+      "downloads": 6410,
       "status": "ok",
       "period": {
         "start": "2025-03-01",
