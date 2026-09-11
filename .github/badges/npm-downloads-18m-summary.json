@@ -8,7 +8,7 @@
     "end": "2026-09-11",
     "months": 18
   },
-  "totalDownloads": 249830,
+  "totalDownloads": 249878,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -39,7 +39,7 @@
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 21702,
+      "downloads": 21706,
       "status": "ok",
       "period": {
         "start": "2025-03-11",
@@ -48,7 +48,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 65532,
+      "downloads": 65555,
       "status": "ok",
       "period": {
         "start": "2025-03-11",
@@ -66,7 +66,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 44264,
+      "downloads": 44284,
       "status": "ok",
       "period": {
         "start": "2025-03-11",
@@ -75,7 +75,7 @@
     },
     {
       "name": "@openclaw-china/wecom-app",
-      "downloads": 29569,
+      "downloads": 29570,
       "status": "ok",
       "period": {
         "start": "2025-03-11",
