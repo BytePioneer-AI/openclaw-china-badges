@@ -7,7 +7,7 @@
     "end": "2026-09-17",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 96042,
+  "totalDownloads": 96044,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -79,7 +79,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 26708,
+      "downloads": 26709,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,13 +90,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-09-17",
-          "downloads": 26708
+          "downloads": 26709
         }
       ]
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 2413,
+      "downloads": 2414,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
@@ -107,7 +107,7 @@
         {
           "start": "2026-03-20",
           "end": "2026-09-17",
-          "downloads": 2413
+          "downloads": 2414
         }
       ]
     },
