@@ -4,19 +4,19 @@
   "registry": "npm public registry",
   "period": {
     "label": "npm public API longest window",
-    "start": "2025-03-17",
-    "end": "2026-09-17",
+    "start": "2025-03-18",
+    "end": "2026-09-18",
     "months": 18
   },
-  "totalDownloads": 250686,
+  "totalDownloads": 250709,
   "packages": [
     {
       "name": "@openclaw-china/channels",
       "downloads": 25907,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
@@ -24,8 +24,8 @@
       "downloads": 31309,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
@@ -33,17 +33,17 @@
       "downloads": 19840,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 21799,
+      "downloads": 21821,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
@@ -51,17 +51,17 @@
       "downloads": 65769,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 5532,
+      "downloads": 5533,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
@@ -69,8 +69,8 @@
       "downloads": 44400,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
@@ -78,8 +78,8 @@
       "downloads": 29638,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     },
     {
@@ -87,8 +87,8 @@
       "downloads": 6492,
       "status": "ok",
       "period": {
-        "start": "2025-03-17",
-        "end": "2026-09-17"
+        "start": "2025-03-18",
+        "end": "2026-09-18"
       }
     }
   ],
