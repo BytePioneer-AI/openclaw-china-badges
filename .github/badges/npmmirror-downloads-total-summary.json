@@ -7,7 +7,7 @@
     "end": "2026-09-22",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 96402,
+  "totalDownloads": 96403,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14600,
+      "downloads": 14601,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,7 +124,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-09-22",
-          "downloads": 14600
+          "downloads": 14601
         }
       ]
     },
