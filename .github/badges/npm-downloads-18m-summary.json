@@ -8,7 +8,7 @@
     "end": "2026-10-03",
     "months": 18
   },
-  "totalDownloads": 252914,
+  "totalDownloads": 252944,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -48,7 +48,7 @@
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 66325,
+      "downloads": 66354,
       "status": "ok",
       "period": {
         "start": "2025-04-03",
@@ -84,7 +84,7 @@
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 6572,
+      "downloads": 6573,
       "status": "ok",
       "period": {
         "start": "2025-04-03",
