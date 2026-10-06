@@ -4,19 +4,19 @@
   "registry": "npm public registry",
   "period": {
     "label": "npm public API longest window",
-    "start": "2025-04-05",
-    "end": "2026-10-05",
+    "start": "2025-04-06",
+    "end": "2026-10-06",
     "months": 18
   },
-  "totalDownloads": 253410,
+  "totalDownloads": 253703,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 26146,
+      "downloads": 26169,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
@@ -24,26 +24,26 @@
       "downloads": 31593,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 20053,
+      "downloads": 20090,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 22224,
+      "downloads": 22305,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
@@ -51,8 +51,8 @@
       "downloads": 66424,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
@@ -60,17 +60,17 @@
       "downloads": 5664,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 44873,
+      "downloads": 44965,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
@@ -78,17 +78,17 @@
       "downloads": 29854,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     },
     {
       "name": "@openclaw-china/wecom-kf",
-      "downloads": 6579,
+      "downloads": 6639,
       "status": "ok",
       "period": {
-        "start": "2025-04-05",
-        "end": "2026-10-05"
+        "start": "2025-04-06",
+        "end": "2026-10-06"
       }
     }
   ],
