@@ -4,10 +4,10 @@
   "registry": "npmmirror",
   "period": {
     "label": "npmmirror historical total aggregated by yearly range API",
-    "end": "2026-10-08",
+    "end": "2026-10-09",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 96949,
+  "totalDownloads": 96950,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -16,12 +16,12 @@
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 8046
         }
       ]
@@ -33,12 +33,12 @@
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 13610
         }
       ]
@@ -50,12 +50,12 @@
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
         "start": "2026-02-08",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-08",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 7607
         }
       ]
@@ -67,30 +67,30 @@
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
         "start": "2026-02-06",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-06",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 9667
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 27032,
+      "downloads": 27033,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-10-08",
-          "downloads": 27032
+          "end": "2026-10-09",
+          "downloads": 27033
         }
       ]
     },
@@ -101,12 +101,12 @@
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
         "start": "2026-03-20",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-20",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 2441
         }
       ]
@@ -118,12 +118,12 @@
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 14666
         }
       ]
@@ -135,12 +135,12 @@
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
         "start": "2026-02-04",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-04",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 11562
         }
       ]
@@ -152,12 +152,12 @@
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
         "start": "2026-03-17",
-        "end": "2026-10-08"
+        "end": "2026-10-09"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-17",
-          "end": "2026-10-08",
+          "end": "2026-10-09",
           "downloads": 2318
         }
       ]
