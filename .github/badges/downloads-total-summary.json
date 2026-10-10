@@ -3,12 +3,12 @@
   "scope": "openclaw-china",
   "label": "downloads",
   "description": "Combined total of npm public registry and npmmirror totals.",
-  "totalDownloads": 351348,
+  "totalDownloads": 351405,
   "sources": [
     {
       "id": "npm",
       "registry": "npm public registry",
-      "totalDownloads": 254331,
+      "totalDownloads": 254388,
       "badgeFileBase": "npm-downloads-18m"
     },
     {
