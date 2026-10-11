@@ -7,7 +7,7 @@
     "end": "2026-10-11",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 97018,
+  "totalDownloads": 97024,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -28,7 +28,7 @@
     },
     {
       "name": "@openclaw-china/dingtalk",
-      "downloads": 13618,
+      "downloads": 13619,
       "status": "ok",
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
@@ -39,13 +39,13 @@
         {
           "start": "2026-01-30",
           "end": "2026-10-11",
-          "downloads": 13618
+          "downloads": 13619
         }
       ]
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 7611,
+      "downloads": 7612,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
@@ -56,13 +56,13 @@
         {
           "start": "2026-02-08",
           "end": "2026-10-11",
-          "downloads": 7611
+          "downloads": 7612
         }
       ]
     },
     {
       "name": "@openclaw-china/qqbot",
-      "downloads": 9672,
+      "downloads": 9673,
       "status": "ok",
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
@@ -73,13 +73,13 @@
         {
           "start": "2026-02-06",
           "end": "2026-10-11",
-          "downloads": 9672
+          "downloads": 9673
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 27074,
+      "downloads": 27076,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
@@ -90,7 +90,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-10-11",
-          "downloads": 27074
+          "downloads": 27076
         }
       ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "name": "@openclaw-china/wecom",
-      "downloads": 14674,
+      "downloads": 14675,
       "status": "ok",
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
@@ -124,7 +124,7 @@
         {
           "start": "2026-01-30",
           "end": "2026-10-11",
-          "downloads": 14674
+          "downloads": 14675
         }
       ]
     },
