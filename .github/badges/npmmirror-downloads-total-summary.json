@@ -7,7 +7,7 @@
     "end": "2026-11-05",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 97691,
+  "totalDownloads": 97692,
   "packages": [
     {
       "name": "@openclaw-china/channels",
@@ -96,7 +96,7 @@
     },
     {
       "name": "@openclaw-china/wechat-mp",
-      "downloads": 2459,
+      "downloads": 2460,
       "status": "ok",
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
@@ -107,7 +107,7 @@
         {
           "start": "2026-03-20",
           "end": "2026-11-05",
-          "downloads": 2459
+          "downloads": 2460
         }
       ]
     },
