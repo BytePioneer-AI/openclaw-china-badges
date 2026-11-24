@@ -4,25 +4,25 @@
   "registry": "npmmirror",
   "period": {
     "label": "npmmirror historical total aggregated by yearly range API",
-    "end": "2026-11-23",
+    "end": "2026-11-24",
     "rangeMode": "package created date -> current date, split by calendar year"
   },
-  "totalDownloads": 98221,
+  "totalDownloads": 98230,
   "packages": [
     {
       "name": "@openclaw-china/channels",
-      "downloads": 8070,
+      "downloads": 8071,
       "status": "ok",
       "createdAt": "2026-01-30T05:37:34.674Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-11-23",
-          "downloads": 8070
+          "end": "2026-11-24",
+          "downloads": 8071
         }
       ]
     },
@@ -33,30 +33,30 @@
       "createdAt": "2026-01-30T05:31:27.109Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-11-23",
+          "end": "2026-11-24",
           "downloads": 13777
         }
       ]
     },
     {
       "name": "@openclaw-china/feishu-china",
-      "downloads": 7741,
+      "downloads": 7742,
       "status": "ok",
       "createdAt": "2026-02-08T11:04:21.987Z",
       "period": {
         "start": "2026-02-08",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-08",
-          "end": "2026-11-23",
-          "downloads": 7741
+          "end": "2026-11-24",
+          "downloads": 7742
         }
       ]
     },
@@ -67,30 +67,30 @@
       "createdAt": "2026-02-06T06:31:54.761Z",
       "period": {
         "start": "2026-02-06",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-06",
-          "end": "2026-11-23",
+          "end": "2026-11-24",
           "downloads": 9795
         }
       ]
     },
     {
       "name": "@openclaw-china/shared",
-      "downloads": 27578,
+      "downloads": 27585,
       "status": "ok",
       "createdAt": "2026-01-30T05:30:19.337Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-11-23",
-          "downloads": 27578
+          "end": "2026-11-24",
+          "downloads": 27585
         }
       ]
     },
@@ -101,12 +101,12 @@
       "createdAt": "2026-03-20T16:40:15.695Z",
       "period": {
         "start": "2026-03-20",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-20",
-          "end": "2026-11-23",
+          "end": "2026-11-24",
           "downloads": 2476
         }
       ]
@@ -118,12 +118,12 @@
       "createdAt": "2026-01-30T11:50:49.176Z",
       "period": {
         "start": "2026-01-30",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-01-30",
-          "end": "2026-11-23",
+          "end": "2026-11-24",
           "downloads": 14819
         }
       ]
@@ -135,12 +135,12 @@
       "createdAt": "2026-02-04T16:05:59.811Z",
       "period": {
         "start": "2026-02-04",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-02-04",
-          "end": "2026-11-23",
+          "end": "2026-11-24",
           "downloads": 11619
         }
       ]
@@ -152,12 +152,12 @@
       "createdAt": "2026-03-17T16:14:42.837Z",
       "period": {
         "start": "2026-03-17",
-        "end": "2026-11-23"
+        "end": "2026-11-24"
       },
       "yearlyRanges": [
         {
           "start": "2026-03-17",
-          "end": "2026-11-23",
+          "end": "2026-11-24",
           "downloads": 2346
         }
       ]
